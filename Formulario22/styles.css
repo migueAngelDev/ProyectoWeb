@@ -1,0 +1,39 @@
+div.element-group{
+margin: 40px 0;
+}
+
+label{
+    display: block;
+    font-family: "aleo";
+    padding-bottom: 4px;
+    font-size: 1.25em;
+}
+
+input, select, textarea{
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: "aleo";
+    width: 500px;
+    padding: 8px;
+
+}
+
+textarea{
+    height: 250px;
+}
+
+button{
+    height:50px;
+    background: green;
+    color: #fff;
+    border: 2px solid darkgreen;
+    font-size: 1.25em;font-family: "aleo";
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid #000;
+}

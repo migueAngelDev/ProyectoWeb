@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="contacto.php" method="POST">
+        <div class="elem-group">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" nombre="nombre" placeholder="Escribe tu nombre" pattern=^[a-zA-Z]{3,20} required>
+        </div>
+        <div class="elem-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="correo@electronico.com" required>
+        </div>
+        <div class="elem-group">
+            <label for="departament-selection">Selecciona tu departamento</label>
+            <select name="cocerned_departament" id="departament-selection">
+                <option value="">Selecciona tu departamento</option>
+                <option value="Finanzas">Finanzas</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Soporte Tecnico">Soporte Técnico</option>
+                <option value="Finanzas">Finanzas</option>
+            </select>
+            </div>
+            <div class="elem-group">
+                <label for="title">Razón por la que nos contactas</label>
+                <input type="text" id="title" name="emain_title" required placeholder="No puedo restablecer mi passsword" pattern="^[a-zA-Z]{3,20}">
+            </div>
+            <div class="elem-group">
+                <label for="message">Escribe tu mensaje</label>
+                <textarea name="Mensaje" id="message" cols="30" rows="10" placeholder="Deja tus comentarios..."·></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </div>
+    </form>
+    
+</body>
+</html>
